@@ -25,6 +25,6 @@ In here, I saved paper id, title and abstract. As some records may not contain t
 
 ![SaveExcelSample](https://github.com/kaian0414/GetPaperInfo/blob/main/save_excel_sample.PNG)
 
-## Special Statement
+## Special Statements
 - This coding is just for learning, willing to assist students to find out the useful papers faster, please don't use it as other purpose.
 - This coding is workable on 27-Jun-2022, if there is some changes on that website in the future, this coding may not fit.
