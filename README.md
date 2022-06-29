@@ -24,3 +24,7 @@ Like the following figure, you need to input the mentioned information, then it 
 In here, I saved paper id, title and abstract. As some records may not contain the author information, I did not save it sample coding. But you can add it back if you need. The paper id can help you easily to find the full paper. The link of the full paper should be "https://ieeexplore.ieee.org/document/{id}". Finally, the information is saved in excel file, namely {input_keyword}_{from_year}to{to_year}_p{num_pages}.xlsx.
 
 ![SaveExcelSample](https://github.com/kaian0414/GetPaperInfo/blob/main/save_excel_sample.PNG)
+
+## Special Statement
+- This coding is just for learning, willing to assist students to find out the useful papers faster, please don't use it as other purpose.
+- This coding is workable on 27-Jun-2022, if there is some changes on that website in the future, this coding may not fit.
