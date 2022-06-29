@@ -11,7 +11,7 @@ Note: Not really require very stong techniques, you can learn during the hand-on
 If you do not know how to get the browser driver, you can reference my previous repository (https://github.com/kaian0414/health-code#environment-setting), I introduced the the process in the "Environment Setting" part. In here, I am using Google Chrome Driver.
 
 ## Coding, Demo and Result
-While running the code, you need to fill in some information. Please see the code for detail requirement and setting.
+While running the code, you need to fill in some information. Please see the code for detail requirements and settings.
 - What keyword you are going to search?
 - Want to get the information from which year?
 - Until which year?
