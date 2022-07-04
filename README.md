@@ -28,3 +28,4 @@ In here, I saved paper id, title and abstract. As some records may not contain t
 ## Special Statements
 - This coding is just for learning, willing to assist students to find out the useful papers faster, please don't use it as other purpose.
 - This coding is workable on 27-Jun-2022, if there is some changes on that website in the future, this coding may not fit.
+- If you only want to get the information, actually, you can get it from JSON, this code is used to practise Python web crawler. 
