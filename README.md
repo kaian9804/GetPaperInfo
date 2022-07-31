@@ -23,12 +23,20 @@ Like the following figure, you need to input the mentioned information, then it 
 
 In here, I saved paper id, title and abstract. As some records may not contain the author information, I did not save it sample coding. But you can add it back if you need. The paper id can help you easily to find the full paper. The link of the full paper should be "https://ieeexplore.ieee.org/document/{id}". Finally, the information is saved in excel file, namely {input_keyword}_{from_year}to{to_year}_p{num_pages}.xlsx.
 
-## Error Msg Update (31-July 2022)
-Error Msg: ‘WebDriver’ object has no attribute 'find_element_by_xpath’
+## Update (31-July 2022)
+The updated coding file: get_thesis_paper_220731.py
+
+1 ) ‘WebDriver’ object has no attribute 'find_element_by_xpath’
 
 In latest version about WebDrive, it requires to use 'By' to find elements. For updated coding, it needs to import the package from selenium.webdriver.common.by import By and the coding is driver.find_element(By.XPATH, 'path').
 
-The updated coding file: get_thesis_paper_220731.py
+2 ) Deprecationwarning: executable_path has been deprecated, please pass in a Service object
+
+It requires the new coding method about WebDriver. driver = webdriver.Chrome(service = Service(executable_path = 'path'), options=option)
+
+3 ) Delete the 'Abstract:' and line break.
+
+4 ) Close driver.
 
 ## Result
 ![SaveExcelSample](https://github.com/kaian0414/GetPaperInfo/blob/main/save_excel_sample.PNG)
